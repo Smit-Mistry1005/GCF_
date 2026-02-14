@@ -1,0 +1,80 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.tran 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tran div
+{
+    margin: 50px;
+}
+
+.Card-Transition-basic
+{
+    height: 200px;
+    width: 200px;
+    margin: 25xp;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 13px;
+}
+
+.Card-Transition-basic:hover
+{
+    height: 250px;
+    width: 250px;
+    transition: all 1s ease-in 0s;
+    background-color: rgba(183, 2, 183, 0.733);
+}
+
+.Card-Transition-timing
+{
+    height: 200px;
+    width: 200px;
+    margin: 25xp;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 13px;
+}
+
+.Card-Transition-timing:hover
+{
+    height: 250px;
+    width: 250px;
+    transition: all 1s ease-out 0s;
+    background-color: rgba(201, 53, 53, 0.799);
+}
+.Card-Transition-transform
+{
+    height: 200px;
+    width: 200px;
+    margin: 25xp;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 13px;
+}
+
+.Card-Transition-transform:hover
+{
+    height: 250px;
+    width: 250px;
+    transition: all 1s ease-in 0s;
+    background-color: rgba(4, 188, 4, 0.759);
+}
